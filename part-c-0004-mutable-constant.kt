@@ -6,7 +6,7 @@ fun main() {
    
    	a = 101
     
-	  println("a = $a")
+	println("a = $a")
     
     val b = 212 // constant-immutable value
     
