@@ -8,7 +8,7 @@ fun main() {
     
     println("Condition 2: ${x || y}")
     
-	  println("Condition 3: ${!x}")
+	println("Condition 3: ${!x}")
     
     println("Condition 3: ${!y}")
 
