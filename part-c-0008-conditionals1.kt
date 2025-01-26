@@ -8,7 +8,7 @@ fun main() {
     
     else if (y > x) { println("Second number is bigger") }
     
-    else { println("Two numbers are equal")}
+    else { println("Two numbers are equal") }
     
 }
 
