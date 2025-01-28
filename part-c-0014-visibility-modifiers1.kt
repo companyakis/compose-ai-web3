@@ -11,21 +11,6 @@ fun main() {
 
 }
 
-class Employee {
-        
-    
-    var name: String = ""
-    var department: String = ""
-    var id: String = ""
-    var salary: Int = 0
-    
-    fun print_emp_info() {
-        
-        println("$name - $department - $id - $salary")
-    }
-    
-}
-
 class UpperManagers {
     
     public var monthlyPremium: Int = 200000
