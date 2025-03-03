@@ -10,7 +10,7 @@ fun main() {
 
 }
 
-class Employee(var name: String, var department: String, var title: String, salary: Int) {
+class Employee(var name: String, var department: String, var title: String, var salary: Int) {
 
 }
 
