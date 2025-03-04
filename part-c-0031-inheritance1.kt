@@ -1,8 +1,6 @@
 fun main() {
 
-    val salesDepartment = Department("Sales")
-
-    val employeeAyhan = Employee("Ayhan Bilir", "4298", 57000, salesDepartment.departmentName)
+    val employeeAyhan = Employee("Ayhan Bilir", "4298", 57000, "Sales")
 
     val empHakan = Employee("Hakan Göktürk", "6587", 65000, "HR")
 
@@ -13,7 +11,6 @@ fun main() {
 
 }
 
-
 open class Department(var departmentName: String) {
 
 }
@@ -21,7 +18,6 @@ open class Department(var departmentName: String) {
 class Employee(var empName: String, var ID: String, var salary: Int,  departmentName: String) : Department(departmentName) {
 
 }
-
 
 
 // Employee: Ayhan Bilir
